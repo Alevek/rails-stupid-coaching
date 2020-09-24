@@ -6,20 +6,31 @@ $yellow : #FEFDE1;
 
 body {
   background: $gray; // Using this variable
-
-
 }
 
-
 a {
-  color: grey;
+  color: #337ab7;;
   &:hover {
   color: black;
   text-decoration: none;
   }
 }
+.question {
+  border-left: groove;
 
+}
 .answer {
   background-color: $yellow;
+  border-left: groove;
 }
-
+input[type="text"] {
+    width: 312px;
+    padding: 10px;
+}
+input.btn-primary {
+   padding: 10px;
+   background-color: #337ab7
+}
+p {
+  margin: 20px;
+}
